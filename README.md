@@ -73,7 +73,7 @@ npm install -g pnpm
 │   │   ├── card.css
 │   │   ├── navbar.jsx
 │   │   └── navbar.css
-│   ├── contents/           # Komponen spesifik konten utama aplikasi
+│   ├── contents/          
 │   │   ├── ChartStyles.css
 │   │   ├── DateRangeFilter.jsx
 │   │   ├── DateRangeFilter.css
@@ -81,20 +81,20 @@ npm install -g pnpm
 │   │   ├── OrganizationInfo.jsx
 │   │   ├── OrganizationInfo.css
 │   │   └── PieChart.jsx
-│   ├── styles/             # Variabel CSS global & styling dasar
+│   ├── styles/             
 │   │   └── variables.css
-│   ├── utils/              # Fungsi utilitas (misal: fetching API)
+│   ├── utils/              
 │   │   └── api.js
-│   ├── App.jsx             # Komponen utama aplikasi
-│   ├── App.css             # Styling global untuk App.jsx
-│   ├── index.css           # Global CSS (font, reset, import variables)
-│   └── main.jsx            # Entry point aplikasi React
-├── .gitignore              # File/folder yang diabaikan Git
-├── index.html              # Template HTML utama
-├── package.json            # Daftar dependensi & script proyek
-├── pnpm-lock.yaml          # Lock file untuk pnpm
-├── README.md               # Dokumentasi proyek ini
-└── vite.config.js          # Konfigurasi Vite
+│   ├── App.jsx             
+│   ├── App.css            
+│   ├── index.css          
+│   └── main.jsx            
+├── .gitignore              
+├── index.html            
+├── package.json            
+├── pnpm-lock.yaml          
+├── README.md               
+└── vite.config.js          
 ```
 
 -----
