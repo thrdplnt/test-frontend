@@ -52,8 +52,6 @@ npm install -g pnpm
 
 3. **Jalankan Aplikasi**:
 
-    Ini akan memulai server pengembangan Vite dan membuka aplikasi di browser Anda (biasanya di `http://localhost:5173/`).
-
     ```bash
     pnpm run dev
     ```
