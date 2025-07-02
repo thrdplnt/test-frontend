@@ -23,7 +23,7 @@ export default function PieChart({ data }) {
   ];
 
   return (
-    <Card title="Population Distribution (Pie Chart)" className="chart-card">
+    <Card title="Population Distribution" className="chart-card">
       <ResponsiveContainer width="100%" height={300}>
         <RechartsPieChart>
           <Pie

@@ -10,7 +10,7 @@ export default function LineChart({ data }) {
   }));
 
   return (
-    <Card title="Population Trend (Line Chart)" className="chart-card">
+    <Card title="Population Trend" className="chart-card">
       <ResponsiveContainer width="100%" height={300}>
         <RechartsLineChart
           data={chartData}
