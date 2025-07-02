@@ -64,9 +64,9 @@ npm install -g pnpm
 
 ```
 .
-├── public/                 # Aset statis (misal: logo.png, favicon)
+├── public/                 
 ├── src/
-│   ├── components/         # Komponen UI generik (Button, Card, Navbar)
+│   ├── components/         
 │   │   ├── button.jsx
 │   │   ├── button.css
 │   │   ├── card.jsx
