@@ -1,0 +1,19 @@
+:root {
+  --color-blue-light: #738FBD;
+  --color-blue-pale: #A8C3D4;
+  --color-grey-light: #DBD6DF;
+  --color-pink-light: #EEC6C7;
+  --color-pink-dark: #DB88A4;
+  --color-pink-purple: #CC8EB1;
+
+  --color-blue-pale-bg-faded: rgba(168, 195, 212, 0.7); 
+  --background-color: var(--color-grey-light);
+  --text-color-primary: #333; 
+  --text-color-secondary: #555;
+
+  --header-bg: var(--color-blue-light);
+  --filter-bg: var(--color-blue-pale);
+  --chart-border: var(--color-pink-dark);
+  --button-bg: var(--color-blue-light);
+  --button-hover-bg: var(--color-blue-pale);
+}

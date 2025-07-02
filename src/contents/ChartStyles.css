@@ -1,0 +1,19 @@
+.chart-card {
+  flex: 1;
+  min-width: 300px; 
+  text-align: center;
+  border: 2px solid var(--color-blue-light); 
+}
+
+@media (max-width: 768px) {
+  .chart-card {
+    width: 100%;
+    max-width: 450px; 
+  }
+}
+
+.chart-card .card-title {
+  color: var(--color-pink-dark);
+  border-bottom: 1px solid var(--color-blue-light);
+  font-size: 1.3em; 
+}

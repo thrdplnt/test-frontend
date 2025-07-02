@@ -1,0 +1,19 @@
+.organization-info-content {
+  text-align: center;
+  color: var(--text-color-primary);
+}
+
+.organization-info-content h3 {
+  color: var(--color-pink-dark); 
+  margin-top: 0;
+  font-size: 1.8em;
+  margin-bottom: 10px; 
+  padding-bottom: 5px; 
+  border-bottom: 2px solid var(--color-blue-pale); 
+  display: block; width: 100%; 
+}
+
+.organization-info-content p {
+  font-size: 1em;
+  line-height: 1.5;
+}
