@@ -7,7 +7,8 @@ import axios from 'axios';
  */
 export async function fetchPopulationData() {
   try {
-    const response = await axios.get('https://datausa.io/api/data?drilldowns=Nation&measures=Population');
+    const originalApiUrl = 'https://datausa.io/api/data?drilldowns=Nation&measures=Population';
+    const apiUrlWithProxy = 'https://corsproxy.io/?' + encodeURIComponent(originalApiUrl);const response = await axios.get(apiUrlWithProxy); 
     const apiData = response.data.data;
     const sourceAnnotations = response.data.source && response.data.source[0] && response.data.source[0].annotations;
 
