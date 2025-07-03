@@ -11,25 +11,27 @@ export default function LineChart({ data }) {
 
   return (
     <Card title="Population Trend" className="chart-card">
-      <ResponsiveContainer width="100%" height={300}>
-        <RechartsLineChart
-          data={chartData}
-          margin={{ top: 5, right: 30, left: 30, bottom: 5 }}
-        >
-          <CartesianGrid strokeDasharray="3 3" stroke={ "var(--color-grey-light)" } />
-          <XAxis dataKey="Year" stroke={ "var(--text-color-secondary)" } />
-          <YAxis stroke={ "var(--text-color-secondary)" } />
-          <Tooltip />
-          <Legend />
-          <Line
-            type="monotone"
-            dataKey="Population"
-            stroke="var(--color-pink-dark)"
-            activeDot={{ r: 8 }}
-            strokeWidth={2}
-          />
-        </RechartsLineChart>
-      </ResponsiveContainer>
+      <div style={{ width: '100%', height: '100%' }}>
+        <ResponsiveContainer width="100%" height="100%">
+          <RechartsLineChart
+            data={chartData}
+            margin={{ top: 5, right: 30, left: 45, bottom: 5 }}
+          >
+            <CartesianGrid strokeDasharray="3 3" stroke="var(--color-grey-light)" />
+            <XAxis dataKey="Year" stroke="var(--text-color-secondary)" />
+            <YAxis stroke="var(--text-color-secondary)" />
+            <Tooltip />
+            <Legend />
+            <Line
+              type="monotone"
+              dataKey="Population"
+              stroke="var(--color-pink-dark)"
+              activeDot={{ r: 8 }}
+              strokeWidth={2}
+            />
+          </RechartsLineChart>
+        </ResponsiveContainer>
+      </div>
     </Card>
   );
 }

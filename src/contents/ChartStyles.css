@@ -1,14 +1,29 @@
 .chart-card {
   flex: 1;
-  min-width: 300px; 
   text-align: center;
   border: 2px solid var(--color-blue-light); 
+  height: 350px; 
 }
 
+.chart-hover {
+  background-color: var(--color-blue-pale-bg-faded);
+  border: 2px solid var(--color-blue-light);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
 @media (max-width: 768px) {
   .chart-card {
-    width: 100%;
-    max-width: 450px; 
+    width: 100%; 
+    max-width: 380px; 
+    margin-left: auto; 
+    margin-right: auto;
+    height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-card {
+    max-width: 320px; 
+    height: 320px; 
   }
 }
 
